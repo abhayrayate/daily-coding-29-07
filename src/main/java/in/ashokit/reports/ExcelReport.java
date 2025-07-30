@@ -1,8 +1,9 @@
-package in.ashokit.service;
+package in.ashokit.reports;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("excel")
 public class ExcelReport implements IReport{
 
 	@Override

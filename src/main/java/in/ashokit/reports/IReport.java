@@ -1,4 +1,4 @@
-package in.ashokit.service;
+package in.ashokit.reports;
 
 public interface IReport {
 
